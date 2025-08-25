@@ -109,6 +109,7 @@ local Tabs = {
     Main5=Window:AddTab({Title="Script của Yuta"}),
     Main6=Window:AddTab({Title="Fisch"}),
     Main7=Window:AddTab({Title="Dead Rails"}),
+    Main8=Window:AddTab({Title="Scripts Steal A Brainrot"}),
 }
 
 -- Tab 0
@@ -383,3 +384,7 @@ Tabs.Main1:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinXt2Vn"))()
     end
 })
+
+Tabs.Main4:AddButton({Title="Chilli hub", Callback=function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
+end})
